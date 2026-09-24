@@ -3,7 +3,7 @@ pages_build_output_dir = "./src"
 compatibility_date = "2026-06-07"
 [[kv_namespaces]]
 binding = "RSS_KV"
-id = "4597fd9e93924e66b56193446ce591fd"
+id = "722702375c1c49c0a63675e9888f31aa"
 
 
 # wrangler pages dev  --ip 0.0.0.0 --port 8787
