@@ -1,3 +1,6 @@
+// 由 scripts/gen-routers.mjs 自动扫描 routers 目录生成
+import {routers} from "./routers/_registry.js"
+
 // 统一的 CORS 响应头配置
 const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
@@ -65,12 +68,10 @@ export default {
 
         if (mode) {
             try {
-                const module = await import(`./routers/${mode}.js`)
-
-                const func = module[mode]
+                const func = routers[mode]
 
                 if (typeof func !== "function") {
-                    throw new Error(`${mode}.js 中没有导出 ${mode} 函数`)
+                    throw new Error(`没有找到 ${mode} 路由`)
                 }
 
                 const result = await func(value, baseUrl,env)
