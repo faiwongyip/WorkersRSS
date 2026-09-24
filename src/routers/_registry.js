@@ -6,7 +6,6 @@ import {fellatiojapan} from "./fellatiojapan.js"
 import {github} from "./github.js"
 import {handjobjapan} from "./handjobjapan.js"
 import {iwara} from "./iwara.js"
-import {nhentai} from "./nhentai.js"
 import {pawchive} from "./pawchive.js"
 import {wikipediahot} from "./wikipediahot.js"
 
@@ -17,7 +16,6 @@ export const routers = {
     github,
     handjobjapan,
     iwara,
-    nhentai,
     pawchive,
     wikipediahot,
 };

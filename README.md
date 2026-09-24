@@ -46,9 +46,6 @@ https://rss-rss.pages.dev/?<平台>=<参数>
 - DLsite 社团新作：  
   `https://rss-rss.pages.dev/?dlsite=RG51931`
 
-- Nhentai 标签检索：  
-  `https://rss-rss.pages.dev/?nhentai=artist/mignon`
-
 - Iwara 视频：  
   `https://rss-rss.pages.dev/?iwara=extrafoxes`
 
